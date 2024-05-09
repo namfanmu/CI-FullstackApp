@@ -1,7 +1,7 @@
-const assert = require('assert');
+import { equal } from 'assert';
 
-describe('Simple Test', function() {
-  it('should always pass', function() {
-    assert.equal(1, 1);
+describe('Simple Test', function () {
+  it('should always pass', function () {
+    equal(1, 1);
   });
 });
