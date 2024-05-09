@@ -8,10 +8,12 @@ export default [{
                 require: true,
                 describe: true,
                 it: true,
+                console: true,
+                module: true,
             },
-        },
-        parserOptions: {
-            ecmaVersion: 2022,
+            parserOptions: {
+                ecmaVersion: 2022,
+            },
         },
     },
     pluginJs.configs.recommended,
